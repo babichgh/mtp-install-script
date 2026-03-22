@@ -18,4 +18,4 @@
 - Choose your proxy and then choose **Set promotion**
 - Send a public channel username in the format @channel or t.me/channel
 ## Donations
-- **TON or TON USDT:** UQAs6dskLcvTz943DgpplCX39BuWBRUgp5xRY8NTEIzF0uYM
+- **TON or TON USDT:** `UQAs6dskLcvTz943DgpplCX39BuWBRUgp5xRY8NTEIzF0uYM`
