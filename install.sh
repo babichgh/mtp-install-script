@@ -1,6 +1,6 @@
 #!/bin/bash
 # Install script for the https://github.com/TelegramMessenger/MTProxy
-apt install git curl build-essential libssl-dev zlib1g-dev
+apt install git build-essential libssl-dev zlib1g-dev
 
 git clone https://github.com/TelegramMessenger/MTProxy && cd MTProxy
 make && cd objs/bin
