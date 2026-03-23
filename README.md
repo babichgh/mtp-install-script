@@ -16,7 +16,7 @@
   ```
 - Congratulations! Now you can use your proxy and share it with anyone
 ## How to add sponsored channel?
-- Open @MTProxybot and send `/myproxies`
+- Open [@MTProxybot](https://t.me/MTProxybot) and send `/myproxies`
 - Choose your proxy and then choose **Set promotion**
 - Send a public channel username in the format @channel or t.me/channel
 ## Donations
