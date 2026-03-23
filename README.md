@@ -7,9 +7,11 @@
   ```
   curl -fsSL https://raw.githubusercontent.com/babichgh/mtp-install-script/refs/heads/main/install.sh | bash
   ```
-- You'll be asked
+- You'll be asked for the tag
   ```
   Now open @MTProxybot on Telegram and register your proxy
+  host:port is YOUR_SERVER_IP/DOMAIN:443
+  secret is [YOUR_SECRET]
   Send me the tag: PUT_TAG_FROM_BOT_HERE
   ```
 - Congratulations! Now you can use your proxy and share it with anyone

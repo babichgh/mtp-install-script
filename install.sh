@@ -11,8 +11,10 @@ curl -s https://core.telegram.org/getProxyConfig -o proxy-multi.conf
 SECRET=$(head -c 16 /dev/urandom | xxd -ps)
 ./mtproto-proxy -u nobody -p 8888 -H 443 -S $SECRET --aes-pwd proxy-secret proxy-multi.conf -M 1
 
-echo "Now open @MTProxybot on Telegram and register your proxy"
-read -p "Send me the tag: " TAG
+echo "Now open @MTProxybot on Telegram and register your proxy:"
+echo "host:port is YOUR_SERVER_IP/DOMAIN:443"
+echo "secret is $SECRET"
+read -p "Now send me the tag: " TAG
 
 cat <<EOF > /etc/systemd/system/MTProxy.service
 [Unit]
